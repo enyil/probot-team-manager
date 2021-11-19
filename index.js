@@ -6,7 +6,7 @@ module.exports = (app) => {
   // Your code here
   app.log.info("Yay, the app was loaded!");
 
-  app.on("issues.opened", async (context) => {
+  app.on("repository.created", async (context) => {
     const issueComment = context.issue({
       body: "Thanks for opening this issue!",
     });
