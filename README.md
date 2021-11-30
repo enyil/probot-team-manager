@@ -2,6 +2,16 @@
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that Adds a repository to a team on creation
 
+## Working with a GHES instance
+
+If you want this app to work with your private GHES instance add GHE_HOST to your .ENV file.
+
+Addionally, you can set the environmental the variable below:
+```
+# Replace this with your github server url
+export GHE_HOST="github.sample.com"
+```
+
 ## Setup
 
 ```sh
