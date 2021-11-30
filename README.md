@@ -32,6 +32,10 @@ docker build -t team-manager .
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> team-manager
 ```
 
+## Configuration
+Read more about configuration here:
+https://probot.github.io/docs/configuration/
+
 ## Contributing
 
 If you have suggestions for how team-manager could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
